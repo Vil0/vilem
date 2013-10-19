@@ -1,0 +1,299 @@
+/* @group GENERAL STYLES
+------------------------------------------------------------------------*/
+@import "reset.min.css";
+
+html { 
+  	background: url(../img/background2.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+body {
+	position: relative;
+	font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0px auto;
+}
+/* @group HELPERS
+------------------------------------------------------------------------*/
+
+.clear { clear: both }
+
+span { font-weight: 200}
+/* @group PAGE STRUCTURE
+------------------------------------------------------------------------*/
+														/* HEADER the white line*/
+header {
+	height: 2.1vw;
+	background-color: rgba(255,255,255,0.8);
+	width: 100%;
+	top: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+header h2 {
+	line-height: 2.1vw;
+	font-size: 1vw;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: rgba(113,113,113,1);
+	margin-left: 20px;
+	float: left;
+}
+
+									/* TITLE  vilem hujnak */
+.title {
+	text-indent: -9999px;
+	height: 122px;
+
+}
+.title h1 {
+	height: 113px;
+	margin-top: 30px;
+	display: none;
+}
+.title #vil {
+	background: url(../img/vilhuj.png) no-repeat;
+}
+.title #bio {
+	background: url(../img/biopage/bio.png) no-repeat;
+}	
+.title #web {
+	background: url(../img/webdesign/webdesign.png) no-repeat;
+}
+
+
+								/* NAVIGATION */
+header nav {
+	float: right;
+	margin-right: 10vw;
+}
+
+header nav li {
+	float: left;
+}
+
+header nav a {
+	display: block;
+	width: 100px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 2.1vw;
+	font-size: 1vw;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #626262;
+	margin-top: 0px;
+}
+header nav a:hover {
+	background:#ffffff;
+}
+.active {
+	background-color: #ffffff;
+}
+								/* SOCIALS */
+#socials {
+	margin-right: 50px;
+	float: right;
+	
+}
+
+header #socials li {
+	float: left;
+	margin-left: 8px;
+}
+
+header #socials a {
+	display: block;
+	height: 2vw;
+	width: 2vw;
+	display: none;
+}
+header #socials img {
+	width: 2vw;
+	height: 2vw;
+}
+
+
+
+/* search thing i guess
+header form {
+	float: right;
+	margin-right: 100px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 0.8em;
+}
+*/
+
+
+
+
+	
+															/* CONTENT BOXES */
+.content {
+	width: 495px;
+	height: 330px;
+	background-color: rgba(255,255,255,0.4);
+	float: left;
+	}
+	
+
+#first_content {
+	width: 495px;
+	height: 560px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#second_content {
+	height: 300px;
+
+}
+#second_content p {
+	margin: 20px 30px 40px 30px;
+	font-size: 1.1em;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+
+#third_content {
+	margin-right: 10px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+#fourth_content {
+	margin-top: -260px;
+}
+
+#fifth_content {
+	margin-top: 10px;
+	height: 250px;
+	background-color: rgba(255,255,255,0.7);
+	background-image: url(../img/tagcloud.png);
+}
+.content a {text-decoration: none;color: #ff2121;font-weight: 100;}
+.content a:hover {text-decoration: underline;}
+
+ 																	/* BIO PAGE */
+.heading {
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255,0.8);
+}
+
+#biopage {
+	width: 1000px;
+	height: 700px;
+	background-color: rgba(255,255,255,0.6);
+	font-weight: 400;
+}
+
+#biopage table { /* table design */
+	margin-left: 40px;
+	line-height: 1.9em;
+	font-size: 0.9em;
+	float: left;
+}
+#biopage table td {
+	width: 320px;
+}
+#biopage .highlight {
+	background-color: rgba(255,255,255,0.4);
+	font-weight: 200;
+}
+#biopage thead {
+	font-weight: 600;
+	color: #474747
+}
+#biopage a {
+	color: black;
+	font-weight: 400;
+} /* image column */
+#biopage img {
+	width: 215px;
+	margin:10px 0px 0px 50px;
+}
+														/* WEB DESIGN PAGE	 */
+
+#webpage {
+	width: 1000px;
+	height: 580px;
+}
+.textBox {
+	width: 490px;
+	height: 330px;
+	background-color: rgba(255,255,255,0.6);
+	float: left;
+}
+.textBox:first-child {
+	margin-right: 20px;
+}
+#intro {
+	margin: 20px;
+	font-size: 1.2em;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+.contact {
+	margin-left: 60px;
+	line-height: 2em;
+	font-weight: 200;
+}
+.contact a {text-decoration: none;color: #ff2121;font-weight: 200;}
+.contact a:hover {text-decoration: underline}
+#webpage h4 { /* contact me */
+	margin: 20px 20px 0px 20px;
+}
+#webpage h3 { /* what i do */
+	margin: 20px;
+	font-size: 1.4em;
+	font-weight: 200;
+}
+.textBox ul {
+	margin: 0px 40px;
+	font-size: 1.1em;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+.textBox li {
+	list-style: circle;
+}
+#outro {
+	margin: 30px 20px 0px 20px;
+	font-size: 1.2em;
+	font-weight: 100;
+	line-height: 1.2em;
+	text-align: center;
+}
+#webpage img {
+	width:330px;
+	margin-top: 20px;
+}
+
+															/* FOOTER */
+														
+#footer {
+	margin: 10px auto;
+	padding: 5px 0px;
+	width: 1000px;
+	line-height: 20px;
+	color: black;
+	text-align: center;
+	font-weight: 200;
+	font-size: 0.9em;
+	background-color: rgba(255,255,255,0.6);
+}
