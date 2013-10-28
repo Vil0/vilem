@@ -298,27 +298,3 @@ header form {
 	background-color: rgba(255,255,255,0.6);
 }
 
-
-
-
-							/* PRELOADER */
-#preloader {
-		position: fixed;
-		top:0;
-		left:0;
-		right:0;
-		bottom:0;
-		background-color: #000; 
-		z-index:99;
-}
-#status {
-		width:200px;
-		height:200px;
-		position:absolute;
-		left:50%;
-		top:30%;
-		background-image:url(../img/preloader.gif);
-		background-repeat:no-repeat;
-		background-position:center;
-		margin:-100px 0 0 -100px;
-}

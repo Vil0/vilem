@@ -29,9 +29,6 @@
 </head>
 
 <body>
-<div id="preloader">
-	<div id="status">&nbsp;</div>
-</div>
 
 
 	<header>
@@ -85,15 +82,7 @@ $page = $_GET["page"];
 <div id="footer">
 		 <p>Copyright © 2013 Vilem Hujnak.<br> All rights reserved.</p>
 		 </div>
- <script type="text/javascript">
-		//<![CDATA[
-			$(window).load(function() { // makes sure the whole site is loaded
-				$('#status').fadeOut(1000); // will first fade out the loading animation
-				$('#preloader').delay(350).fadeOut('slow'); // will fade out the black DIV that covers the website.
-				$('body').delay(350).css({'overflow':'visible'});
-			})
-		//]]>
-</script> 
+
 </body>
 
 </html>
