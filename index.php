@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Vilem Hujnak</title>
+	<meta name="viewport" content="width=320">
 	<meta name="author" content="Vilém Hujňák">
 	<meta name="keywords" content="web, design, developement, developer, designer, Vilém Hujňák, Vil">
 	<meta name="description" content="This is Vilem's personal and professional website. He's a web developer, designer with taste and loves Apple stuff. He's a passionate guitar player with weakness for IT and computers. He believes he can change the world, but can he?">
@@ -28,6 +29,10 @@
 </head>
 
 <body>
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+
 
 	<header>
 		<h2><?php 
@@ -80,7 +85,15 @@ $page = $_GET["page"];
 <div id="footer">
 		 <p>Copyright © 2013 Vilem Hujnak.<br> All rights reserved.</p>
 		 </div>
- 
+ <script type="text/javascript">
+		//<![CDATA[
+			$(window).load(function() { // makes sure the whole site is loaded
+				$('#status').fadeOut(1000); // will first fade out the loading animation
+				$('#preloader').delay(350).fadeOut('slow'); // will fade out the black DIV that covers the website.
+				$('body').delay(350).css({'overflow':'visible'});
+			})
+		//]]>
+</script> 
 </body>
 
 </html>

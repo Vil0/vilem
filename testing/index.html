@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<title>Gymnázium a OA Bučovice</title>
+	<meta name="viewport" content="initial-scale=1">
+	<meta name="author" content="Vilém Hujňák">
+	<meta name="keywords" content="střední škola, gymnázium, obchodní akademie, Bučovice">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<!--[if lt IE 9]>
+	<script scr="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>		<!-- jQuery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>       <!-- jQuery UI -->
+	<script src="js/paper-full.min.js"></script>     <!-- paper.js -->
+</head>
+
+<body>
+
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+	
+<div id="container">
+	
+	<header>
+		<div id="headBanner">
+			<h1 style="margin-top: 100px;">Gymnázium a Obchodní akademie<br/> Bučovice</h1> <!-- top margin didn't just work in style.css -->
+			<div id="buildWrap"> <!-- centering buildings pics -->
+				<div class="building" style="margin-left: 40px; margin-right: 120px;"> <!-- margin for only the first of this class -->
+					<a href="http://www.gymbuc.cz/index.php">
+						<img src="img/gympl.png">
+					</a>
+				</div>
+		
+				<div class="building">
+					<a href="http://www.oabucovice.cz/index.php">
+						<img src="img/gympl.png">
+					</a>
+				</div>	<div class="clear"></div>
+			</div>
+		</div>
+	</header>
+	
+	
+	<div class="wrap">
+	
+		<div id="descriptWrap">
+			<div class="descript" style="margin-right:40px;">
+				<h2><a href="http://www.gymbuc.cz/index.php">Gymnázium</a></h2>
+				<p>Gymnázium je střední všeobecně vzdělávací vnitřně diferencovaná škola. Poskytuje úplné středoškolské vzdělání zakončené maturitní zkouškou. V současnosti má osm tříd osmiletého studijního programu (4 třídy nižší stupeň gymnázia) a čtyři třídy čtyřletého studijního programu.
+				</p>
+			</div>
+		
+			<div class="descript">
+				<h2><a href="http://www.oabucovice.cz/index.php">Obchodní akademie</a></h2>
+				<p>Obchodní akademie nabízí čtyřletý studijní obor zakončený maturitní zkouškou. Připravuje absolventy ekonomického zaměření na výkon obchodně podnikatelských činností ve výrobních a obchodních podnicích, v peněžnictví, v cestovním ruchu a ve státní a veřejné správě.
+				</p>
+			</div>	<div class="clear"></div>
+		</div>
+		
+		<div id="contactsWrap">
+				<h3>Kontakt</h3>
+				<div class="contacts" style="margin-right:40px;">
+					<p>
+					Gymnázium<br/>
+					Adresa:	Součkova 500, 685 01 Bučovice<br/>
+					Kancelář + fax:	+420 517 384 262<br/>
+					Ředitel:	+420 517 384 263, +420 603 201 927<br/>
+					Email:	srnova@gymbuc.cz<br/>
+					IČO:	00559261<br/>
+					IZO:	102 807 647<br/>
+					</p>	
+				</div>
+				<div class="contacts">
+					<p>
+					Odloučené pracoviště Obchodní akademie<br/>
+					Adresa:	Komenského nám. 211, 685 01 Bučovice<br/>
+					Kancelář:	+420 517 383 515<br/>
+					Vedoucí pracoviště:	+420 517 383 710<br/>
+					Zástupce ředitele:	+420 517 383 169<br/>
+					Školní jídelna:	+420 517 383 610<br/>
+					Email:	info@oabucovice.cz<br/>
+					</p>
+				</div>	<div class="clear"></div>
+			</div>
+	</div> <!-- wrap ends -->
+	
+	
+	<div id="footer">	
+		<div class="wrap">
+			<div id="content">
+				<h4><a href="index.html">Gymnázium a Obchodní akademie Bučovice</a></h4>
+				<ul>
+					<li><a href="http://www.gymbuc.cz/index.php">Stránky gymnázia</a></li>
+					<li><a href="http://www.oabucovice.cz/index.php">Stránky akademie</a></li>
+					<li><a href="http://www.oabucovice.cz/jidelnicek/jidelnicek.php">Jídelníček</a></li>
+					<li><a href="http://www.gymbuc.cz/data/rozvrh/subst/index.htm">Suplování</a></li>
+					<li><a href="http://www.goabuc.cz/moodle/">MOODLE</a></li>
+				</ul>
+			</div>
+			<div id="secondary">
+			<p>© 2013 <a href="http://vilem.hujnak.cz">vilem hujnak</a> All Rights Reserved.</p>
+			
+		</div>	<div class="clear"></div>
+
+<!-- DELETE BEFORE HAND OUT, OR MAKE IT WORK - This is the jspaper canvas with script.js, which didn't work quite well
+		<!--
+<script src="js/script.js" type="text/paperscript" canvas="canvas-1"></script>
+		<div class="canvas">
+			<canvas resize="true" id="canvas-1"></canvas>
+		</div>  -->
+
+
+	</div> <!-- footer ends -->
+
+</div> <!-- container ends -->
+
+
+<script type="text/javascript">
+		//<![CDATA[
+			$(window).load(function() { // makes sure the whole site is loaded
+				$('#status').fadeOut(1000); // will first fade out the loading animation
+				$('#preloader').delay(350).fadeOut('slow'); // will fade out the black DIV that covers the website.
+				$('body').delay(350).css({'overflow':'visible'});
+			})
+		//]]>
+</script> 
+
+</body>
+
+</html>

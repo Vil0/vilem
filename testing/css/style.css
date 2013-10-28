@@ -1,0 +1,199 @@
+/* @group GENERAL STYLES
+------------------------------------------------------------------------*/
+@import "normalize.css";
+/* @import "reset.css"; */
+
+body {
+	font-family: Arial, sans-serif;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+	width:auto; 
+	height:auto;	
+	color: #000000;
+	overflow: hidden;	
+}
+	
+/* @group HELPERS
+------------------------------------------------------------------------*/
+
+.clear { clear: both }
+
+@font-face {
+  font-family: Zapfino;
+  font-style: normal;
+  font-weight: 400;
+  src: local(Zapfino), url(Zapfino.ttf);
+}
+
+
+
+/* @group PAGE STRUCTURE
+------------------------------------------------------------------------*/
+#container {	
+	width: 100%;		
+}
+
+							/* TOP CONTENT */
+#headBanner {
+	width: 100%;
+	background-image: url(../img/cover.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+
+}
+
+#headBanner h1 {
+	text-align: center;
+	width: 100%;
+	color:#fff;
+	display: block;
+	text-shadow: 0 0 8px rgba(0,0,0,1);
+	margin: 0 auto;
+	font-family: Zapfino;
+	font-size: 3.3em;
+	font-weight: 100;
+}
+
+#buildWrap {
+	margin: 90px auto 20px auto;
+	max-width: 62.5em;	
+}
+
+.building {
+	width: 400px;
+	height: 255px;
+	float: left;
+	overflow: hidden;
+	background: transparent;
+}
+.building a {
+	display: block;
+	height: 275px;
+}
+							
+							
+							/* MIDDLE CONTENT */
+.wrap {
+	margin: 0px auto;
+	max-width: 62.5em;	
+}
+
+.descript {
+	float:left;
+	width: 480px;
+	text-align: justify;
+}
+
+.descript h2 {
+	font-family: Zapfino;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.descript p {
+	margin: 0px;
+}
+
+.descript a {
+	color: #000000;
+}
+.descript a:hover {
+	color: #999999;
+}
+#descriptWrap {
+	margin-bottom: 100px;
+}
+
+#contactsWrap h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.contacts {
+	float: left;
+	width: 480px;
+}
+.contacts p {
+	margin: 0px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 0.9em;
+}
+							
+							
+							/* FOOTER */
+#footer {
+	height: 330px;
+	width: 100%;
+	background: #1b1b1b;
+	color: #5b5b5a;
+	font-family: Candara;
+}
+#footer h4 {
+	text-align: center;
+	margin: 0px;
+}
+#footer h4 a {
+	color: #5b5b5a;
+	text-decoration: none;
+}
+#footer h4 a:hover {
+	color: #5b5b5a;
+}
+
+#footer li {
+	list-style: none;
+}
+#footer #content {
+	padding: 15px 0px;
+	border-bottom: 1px solid #5b5b5a;
+}
+#footer li {
+	line-height: 2.4em;
+}
+#footer ul a {
+	color: #767676;
+	text-decoration: none;
+}
+#footer ul a:hover {
+	color: #e3e3e3;
+}
+
+#footer #secondary p {
+	font-family: Candara,sans-serif;
+	font-size: 0.88em;
+}
+#footer #secondary a {
+	color: #5b5b5a;
+	text-decoration: none;
+}
+#footer #secondary a:hover {
+	color: #e3e3e3;
+}
+    
+							
+							
+							
+							/* PRELOADER */
+#preloader {
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		background-color: #000; 
+		z-index:99;
+}
+#status {
+		width:200px;
+		height:200px;
+		position:absolute;
+		left:50%;
+		top:30%;
+		background-image:url(../img/preloader.gif);
+		background-repeat:no-repeat;
+		background-position:center;
+		margin:-100px 0 0 -100px;
+}
