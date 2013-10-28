@@ -30,7 +30,6 @@
 
 <body>
 
-
 	<header>
 		<h2><?php 
 			 $header = "welcome to my website";
@@ -82,7 +81,7 @@ $page = $_GET["page"];
 <div id="footer">
 		 <p>Copyright © 2013 Vilem Hujnak.<br> All rights reserved.</p>
 		 </div>
-
+ 
 </body>
 
 </html>
