@@ -110,7 +110,7 @@
 	  </table>
 	  
 	  <img src="img/biopage/guitar.jpg" alt="Guitar playin"/>      
-	  <img src="img/biopage/alps.jpg" alt="Trip to the Alps"/>
+	  <img src="img/biopage/alps.jpg" alt="Alps trip"/>
 	  <img src="img/biopage/gumball.jpg" alt="Gumball3000 - Max Copper"/>
 	  
 	</div>
