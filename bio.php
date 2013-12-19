@@ -11,7 +11,7 @@
 	<div class="content" id="biopage">
 	  <table>
 		<thead>
-			<tr><th>Question</th><th>Answer</th></tr>
+			<tr><th>Questions</th><th>Answers</th></tr>
 		</thead>
 		<tbody>
 			<tr class="highlight">
