@@ -64,11 +64,11 @@
 			</tr>
 			<tr class="highlight">
 				<td>Favorite Expression:</td>
-				<td>I'll update this when I find out</td>
+				<td>oh fuck .. </td>
 			</tr>
 			<tr>
 				<td>Favorite Drink:</td>
-				<td>Water</td>
+				<td>Green tea</td>
 			</tr>
 			<tr class="highlight">
 				<td>Favorite Food:</td>
